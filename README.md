@@ -24,7 +24,7 @@
  * You can activate/deactivate the grid (the rectangle around the face) using the <i>grid button</i>.
  
 
------------------------------------------------
+
 
 
 
@@ -33,7 +33,7 @@
 * You can download StaySafe, including the trained model, from here: <b> https://drive.google.com/drive/folders/1mnBbVKH7_LoG_zE6lx6zTf3ENlVzbalF?usp=sharing </b>
 
 
------------------------------------------------
+
 
 
 # How can I run it?
