@@ -5,9 +5,3 @@
 
 ![Test Image 1](/IMGreadme/safe.png)
 
-
-
-# What options do i have?
-
- 
- * You can turn ON/OFF a sound 
