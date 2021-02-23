@@ -1,7 +1,7 @@
  # What is StaySafe?
  
  
- * StaySafe  is an application that in real time will predict whether a person is wearing a mask or not, using transfer learning. The pre-trained model used is <b>MobileNet</b> ( https://www.tensorflow.org/api_docs/python/tf/keras/applications/MobileNet ) and has been trained on a dataset that contains pictures of people wearing or not wearing face masks (https://github.com/cabani/MaskedFace-Net).
+ * StaySafe  is an application that will predict in real time whether a person is wearing a mask or not, using transfer learning. The pre-trained model used is <b>MobileNet</b> ( https://www.tensorflow.org/api_docs/python/tf/keras/applications/MobileNet ) and has been trained on a dataset that contains pictures of people wearing and not wearing face masks (https://github.com/cabani/MaskedFace-Net).
  
 
 
