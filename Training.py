@@ -16,6 +16,7 @@ directory = "Data/"
 categories = ["WithMask", "NoMask"]
 new_array = cv2.resize(img_array, (224, 224))
 
+# Processing the data in order to train the model on it
 def create_training_Data():
     for category in categories:
         path = os.path.join(directory, category)
@@ -49,10 +50,11 @@ y = pkl.load(open("y.pickle","rb"))
 
 
 
-# Training the model
+# Training the model using Tranfer Learning 
 
 model = tf.keras.applications.mobilenet.MobileNet() ##pre-trained model
 
+# Removing unused layer
 base_input = model.layers[0].input
 base_output = model.layers[-4].output
 
@@ -67,8 +69,14 @@ new_model.fit(x,y, epochs=1, validation_split=0.1)
 new_model.save('IA - MaskDetector.h5')
 
 """
-# Loading the model
 def TurnWebCamOn():
+
+    """
+    This functions creates an CV2 Window and predicts if the person in front of the camera has or has not a Mask,
+    using the "A - Mask Detection.h5" model, who has been trained earlier on the data set.
+    """
+
+    # Loading the model
     model = keras.models.load_model('IA - MaskDetector.h5')
 
     path = "haarcascade_frontalface_default.xml"
