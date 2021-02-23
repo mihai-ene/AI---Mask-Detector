@@ -18,10 +18,10 @@
 
 # What options do i have?
  
- * It can play a sound in the background, that says "please wear a mask", and can be turned <b>ON/OFF</b> by accessing the <i>sound button</i>. 
+ * You can play a sound in the background, that says "please wear a mask", and can be turned <b>ON/OFF</b> by accessing the <i>sound button</i>. 
  
 
- * You can <b>activate/deactivate</b> the grid (the rectangle around the face) using the <i>grid button</i>.
+ * You can activate/deactivate the grid (the rectangle around the face) using the <i>grid button</i>.
 
 
 
