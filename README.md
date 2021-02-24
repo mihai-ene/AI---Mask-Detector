@@ -40,11 +40,4 @@
 * To open the app execute the following command: <b> python StaySafe.py</b>
 
 
-* To run the "StaySafe.py" script you need to install the following python modules:
-    * <b>Tensorflow</b> -> pip install --upgrade tensorflow
-    * <b>PyQt5</b>  -> pip install PyQt5
-    * <b>numpy</b> -> pip install numpy
-    * <b>cv2</b> -> pip install opencv-python
-    * <b>pyshine</b> -> pip install pyshine
-    * <b>playsound </b> -> pip install playsound
 
