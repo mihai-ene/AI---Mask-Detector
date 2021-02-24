@@ -30,7 +30,7 @@
 
 # Where can I download it?
 
-* You can download StaySafe, including the trained model, from here: <b> https://drive.google.com/drive/folders/1mnBbVKH7_LoG_zE6lx6zTf3ENlVzbalF?usp=sharing </b>
+* You can download StaySafe, including the trained model (<b>not included on this repository</b>) , from here: <b> https://drive.google.com/drive/folders/1mnBbVKH7_LoG_zE6lx6zTf3ENlVzbalF?usp=sharing </b>
 
 
 
